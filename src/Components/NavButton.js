@@ -1,10 +1,19 @@
-import React from 'react'
+import React, {useState} from 'react'
+import "./NavButton.css"
 
-function NavButton() {
+
+function NavButton(props) {
+    const [toggle, setToggle] = useState("");
+
+    const expand = toggle ? "width1" : "";
+
     return(
-        <div>
-            <h1>My name is...</h1>
+        <>
+        <div className="navIcon" onClick={() => setToggle(!toggle)}></div>
+        <div className={`navBox ${expand}`}>
+            <p className="navLink">Cheese</p>
         </div>
+        </>
     )
 }
 
