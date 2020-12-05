@@ -1,35 +1,38 @@
 .navIcon{
-    position: fixed;
-    width: 50px;
-    height: 50px;
-    border: 2px solid #0E3B43;
-    margin: 10px;
+    position: sticky;
+    background: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1607209447/Portfolio1/Black_and_White_DS_Logo_7_bfvg5q.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    /* border: 2px solid black; */
+    /* margin: 10px; */
 }
 
 .navBox{
     height: 100%;
-    background-color: #0E3B43;
+    background-color: rgba(128, 128, 128, 0.1);
     position: absolute;
     z-index: 1;
-    right: 0%;
+    top: 0;
+    right: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     overflow: hidden;
     width: 0;
-    color: white;
     transition: all 1s;
 }
 
 .width1 {
-    width: 50%;
+    width: 25%;
   }
   
 .navLink{
-    position: absolute;
     top: 10%;
     left: 25%;
     font-size: 25px;
-    color: #F0F3F5;
-  }
+    color: #0E3B43;
+    list-style-type: none;
+}
