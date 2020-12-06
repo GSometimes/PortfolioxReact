@@ -1,0 +1,136 @@
+.navIcon{
+    position: fixed;
+    background: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1607209447/Portfolio1/Black_and_White_DS_Logo_7_bfvg5q.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    z-index: 10000;
+}
+.navBox{
+    height: 100%;
+    /* background-color: rgba(128, 128, 128, 1); */
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 0;
+    transition: all 1s;
+}
+.width1 {
+    width: 50%;
+}
+.navLink {
+    font-size: 25px;
+    position: absolute;
+    top: 10%;
+    color: white;
+}
+.bannerContainer{
+    background-image: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1607229769/Portfolio1/nicole-y-c-etw7KoIn3Gw-unsplash_1_gm0joc.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    font-size: 25px;
+}
+
+
+#hello{
+    position: absolute;
+    top: 25%;
+    /* left: calc(50% - 112px);
+     */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    width: 225px;
+    background-color: rgba(0, 0, 0, .65);
+    color: white;
+    padding: 5px;
+}
+#name{
+    position: absolute;
+    top: 40%;
+    /* left: calc(50% - 125px); */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* width: 250px; */
+    margin: 0 auto;
+    font-size: 35px;
+    background-color: rgba(0, 0, 0, .65);
+    color: white;
+    padding: 5px;
+    letter-spacing: 5px;
+
+}
+
+/* .project1Container{
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    top: 60%;
+} */
+
+.brandStatement{
+    position: relative;
+    /* top: calc(350px - 50px); */
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+}
+.aboutContainer{
+    margin: 0 auto;
+    background-image: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1607286294/Portfolio1/cropped-Fotolia_119561214_Subscription_Yearly_XXL_PLUS-2-2000x1014_oy6nhy.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.aboutText{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.aboutText div{
+    overflow: hidden;
+}
+.contentBox{
+    width: 40%;
+    max-width: 400px;
+}
+
+#myPic{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+#aboutMe{
+    width: 100%;
+    text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+    .aboutText{
+        flex-direction: column;
+    }
+    .contentBox{
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+}

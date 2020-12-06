@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import "./NavButton.css"
+import "./Component.css"
 
 
 function NavButton(props) {
@@ -11,11 +11,11 @@ function NavButton(props) {
         <>
         <div className="navIcon" onClick={() => setToggle(!toggle)}></div>
         <div className={`navBox ${expand}`}>
-            <ul className="navLink">
-                <li>About</li>
-                <li>Projects</li>
-                <li>Contact</li>
-            </ul>
+            <div className="navLink">
+                <p>About</p>
+                <p>Projects</p>
+                <p>Contact</p>
+            </div>
         </div>
         </>
     )
