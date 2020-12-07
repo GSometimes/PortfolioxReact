@@ -7,7 +7,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* text-align: center; */
   font-family: 'Gruppo', cursive;
   scroll-behavior: smooth;
 }
@@ -18,4 +17,5 @@
   background-color: black;
   width: 100%;
   color: white;
+  text-align: center;
 }
