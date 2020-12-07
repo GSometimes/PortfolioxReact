@@ -7,19 +7,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  text-align: center;
+  /* text-align: center; */
   font-family: 'Gruppo', cursive;
   scroll-behavior: smooth;
 }
-/* .parallax{
-  background-image: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1607286294/Portfolio1/cropped-Fotolia_119561214_Subscription_Yearly_XXL_PLUS-2-2000x1014_oy6nhy.jpg');
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-} */
 
 .footer {
   position: fixed;

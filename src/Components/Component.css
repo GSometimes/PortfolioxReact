@@ -8,15 +8,20 @@
     margin: 10px;
     filter:drop-shadow(8px 8px 10px gray);
 }
-
+h1{
+    text-align: center;
+}
 a, a:hover, a:focus, a:active {
     text-decoration: none;
     color: #71A9F7;
     font-weight: bold;
 }
+p{
+    text-align: justify;
+    padding: 10px;
+}
 .navBox{
     height: 100%;
-    /* background-color: rgba(128, 128, 128, 1); */
     background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
     z-index: 1;
@@ -113,8 +118,8 @@ a, a:hover, a:focus, a:active {
 
 #myPic{
     border-radius: 50%;
-    height: 200px;
-    width: 200px;
+    height: 225px;
+    width: 225px;
     position: absolute;
     top: 45%;
     left: 50%;
@@ -219,6 +224,8 @@ a, a:hover, a:focus, a:active {
     background-size: cover;
     width: 100%;
     padding-bottom: 20px;
+    height: 300px;
+    padding: 25px;
 }
 
 .flexContainer{
@@ -234,6 +241,52 @@ a, a:hover, a:focus, a:active {
     padding: 10px;
     font-size: 18px;
 }
+
+/* Contact Form CSS */
+
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  .form > h1 {
+    margin-bottom: 30px;
+  }
+  
+  .form > input,
+  textarea {
+    padding: 20px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    background: #fff;
+    font-size: 16px;
+    color: rgb(0, 0, 32);
+    outline: none;
+  }
+  
+  .form > input:focus,
+  textarea:focus {
+    border: 2px solid#71A9F7;
+  }
+  
+  .form > textarea {
+    height: 150px;
+    max-width: 400px;
+    min-height: 100px;
+    
+  }
+  
+  .form > label {
+    padding-bottom: 10px;
+    color: rgb(0, 0, 32);
+    font-weight: bold;
+  }
+  
+
+/* End of Contact form css */
+
 
 @media screen and (max-width: 768px) {
     #hello{

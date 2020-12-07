@@ -18,7 +18,6 @@ function App() {
       <Projects />
       <Contact />
     </div>
-    {/* <div className="parallax"></div> */}
     <div className="footer">Designs by Sometimes</div>
     </>
   );
