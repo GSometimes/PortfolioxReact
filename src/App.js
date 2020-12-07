@@ -1,7 +1,7 @@
 import React from "react"
 import './App.css';
 import './Components/Component.css';
-import { Switch, Route } from "react-router-dom";
+// import { Switch, Route } from "react-router-dom";
 import Contact from "./Components/Contact"
 import Projects from "./Components/Projects"
 import About from "./Components/About"
