@@ -1,14 +1,12 @@
 .navIcon{
     position: fixed;
-    background: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1607292985/Portfolio1/GS_Logo_Arrow_fwptzg.png');
+    background: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1607318693/Portfolio1/Black_and_White_DS_Logo_12_xydkb9.png');
     background-size: contain;
     background-repeat: no-repeat;
-    width: 175px;
-    height: 100px;
-    top: 0;
+    width: 200px;
+    height: 150px;
     margin: 10px;
-    filter: invert(.5)
-    /* z-index: 10000; */
+    filter:drop-shadow(8px 8px 10px gray);
 }
 
 a, a:hover, a:focus, a:active {
