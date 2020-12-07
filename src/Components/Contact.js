@@ -39,9 +39,9 @@ const Contact = () => {
                 <div className="flexContainer">
 
                     <div className="contentBox">
-                        <p className="contact">Connect by <a href="mailto:gsometimes@outlook.com">Email</a></p>
-                        <p className="contact">View my <a href="https://github.com/GSometimes" target="_blank" rel="noopener noreferrer">Github</a></p>
-                        <p className="contact">Connect on <a href="https://www.linkedin.com/in/gore-sometimes/" target="_blank" rel="noopener noreferrer">Linkedin</a></p>
+                        <p className="contact">Connect by <a className="contactLink" href="mailto:gsometimes@outlook.com">Email</a></p>
+                        <p className="contact">View my <a className="contactLink" href="https://github.com/GSometimes" target="_blank" rel="noopener noreferrer">Github</a></p>
+                        <p className="contact">Connect on <a className="contactLink" href="https://www.linkedin.com/in/gore-sometimes/" target="_blank" rel="noopener noreferrer">Linkedin</a></p>
                     </div>
 
 
