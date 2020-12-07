@@ -58,8 +58,6 @@ a, a:hover, a:focus, a:active {
 #hello{
     position: absolute;
     top: 25%;
-    /* left: calc(50% - 112px);
-     */
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0 auto;
@@ -72,10 +70,8 @@ a, a:hover, a:focus, a:active {
 #name{
     position: absolute;
     top: 65%;
-    /* left: calc(50% - 125px); */
     left: 50%;
     transform: translate(-50%, -50%);
-    /* width: 250px; */
     margin: 0 auto;
     font-size: 45px;
     background-color: rgba(0, 0, 0, .65);
@@ -83,19 +79,10 @@ a, a:hover, a:focus, a:active {
     padding: 5px;
     letter-spacing: 10px;
     font-family: 'Great Vibes', cursive;
-
 }
 
 
-.brandStatement{
-    position: relative;
-    /* top: calc(350px - 50px); */
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    flex-direction: column;
-}
+
 .aboutContainer{
     margin: 0 auto;
     background-image: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1607286294/Portfolio1/cropped-Fotolia_119561214_Subscription_Yearly_XXL_PLUS-2-2000x1014_oy6nhy.jpg');
@@ -138,10 +125,6 @@ a, a:hover, a:focus, a:active {
     text-align: justify;
 }
 
-p{
-    color: white;
-    text-align: justify;
-}
 
 .imageContainer{
     background-image: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1607295198/Portfolio1/highres_493679678_gs2ktm.jpg');
@@ -253,6 +236,42 @@ p{
 }
 
 @media screen and (max-width: 768px) {
+    #hello{
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0 auto;
+        width: 225px;
+        background-color: rgba(0, 0, 0, .65);
+        color: white;
+        padding: 5px;
+    }
+
+    #name{
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0 auto;
+        font-size: 40px;
+        background-color: rgba(0, 0, 0, .65);
+        color: white;
+        padding: 5px;
+        letter-spacing: 10px;
+        font-family: 'Great Vibes', cursive;
+        text-align: center;
+    }
+    #myPic{
+        border-radius: 50%;
+        height: 175px;
+        width: 175px;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
     .aboutText{
         flex-direction: column;
     }
@@ -261,4 +280,71 @@ p{
         margin: 0 auto;
         padding-top: 20px;
     }
+    .header{
+        font-size: 50px;
+    }
+
+    .contact{
+        text-align: center;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .bannerContainer{
+        background-image: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1607229769/Portfolio1/nicole-y-c-etw7KoIn3Gw-unsplash_1_gm0joc.jpg');
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+    }
+    
+    #hello{
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0 auto;
+        width: 225px;
+        background-color: rgba(0, 0, 0, .65);
+        color: white;
+        padding: 5px;
+    }
+
+    #name{
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0 auto;
+        font-size: 35px;
+        background-color: rgba(0, 0, 0, .65);
+        color: white;
+        padding: 5px;
+        letter-spacing: 10px;
+        font-family: 'Great Vibes', cursive;
+        width: 80%;
+        text-align: center;
+    }
+    #myPic{
+        border-radius: 50%;
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .header{
+        font-size: 40px;
+    }
+
+    .contact{
+        text-align: center;
+        font-size: 18px;
+    }
+
 }

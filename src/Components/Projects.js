@@ -5,7 +5,7 @@ const Projects = () => {
     return (
         <>
         <div id="projects"className="projectContainer1">
-            <h1>Project1</h1>
+            <h1>Portfolio By Sometimes</h1>
             <div className="contentBox">
                     <p>Lorem Ipsum is simply dummy text of the printing and 
                     typesetting industry. Lorem Ipsum has been the industry's 
@@ -18,7 +18,7 @@ const Projects = () => {
             <div className="projectImage1"></div>
         </div>
         <div className="projectContainer2">
-            <h1>Project2</h1>
+            <h1>The Man They Called Cayde</h1>
             <div className="contentBox">
                     <p>Lorem Ipsum is simply dummy text of the printing and 
                     typesetting industry. Lorem Ipsum has been the industry's 
@@ -31,7 +31,7 @@ const Projects = () => {
             <div className="projectImage2"></div>
         </div>
         <div className="projectContainer3">
-            <h1>Project3</h1>
+            <h1>Cineprime</h1>
             <div className="contentBox">
                     <p>Lorem Ipsum is simply dummy text of the printing and 
                     typesetting industry. Lorem Ipsum has been the industry's 
@@ -44,7 +44,7 @@ const Projects = () => {
             <div className="projectImage3"></div>
         </div>
         <div className="projectContainer4">
-            <h1>Project4</h1>
+            <h1>Little Black Book</h1>
             <div className="contentBox">
                     <p>Lorem Ipsum is simply dummy text of the printing and 
                     typesetting industry. Lorem Ipsum has been the industry's 
