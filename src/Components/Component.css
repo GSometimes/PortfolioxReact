@@ -1,12 +1,20 @@
 .navIcon{
     position: fixed;
-    background: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1607209447/Portfolio1/Black_and_White_DS_Logo_7_bfvg5q.png');
-    background-size: cover;
+    background: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1607292985/Portfolio1/GS_Logo_Arrow_fwptzg.png');
+    background-size: contain;
     background-repeat: no-repeat;
-    width: 100px;
+    width: 175px;
     height: 100px;
     top: 0;
-    z-index: 10000;
+    margin: 10px;
+    filter: invert(.5)
+    /* z-index: 10000; */
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: #71A9F7;
+    font-weight: bold;
 }
 .navBox{
     height: 100%;
@@ -28,10 +36,14 @@
     width: 50%;
 }
 .navLink {
-    font-size: 25px;
+    font-size: 36px;
     position: absolute;
-    top: 10%;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
+
 }
 .bannerContainer{
     background-image: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1607229769/Portfolio1/nicole-y-c-etw7KoIn3Gw-unsplash_1_gm0joc.jpg');
@@ -57,29 +69,25 @@
     background-color: rgba(0, 0, 0, .65);
     color: white;
     padding: 5px;
+
 }
 #name{
     position: absolute;
-    top: 40%;
+    top: 65%;
     /* left: calc(50% - 125px); */
     left: 50%;
     transform: translate(-50%, -50%);
     /* width: 250px; */
     margin: 0 auto;
-    font-size: 35px;
+    font-size: 45px;
     background-color: rgba(0, 0, 0, .65);
     color: white;
     padding: 5px;
-    letter-spacing: 5px;
+    letter-spacing: 10px;
+    font-family: 'Great Vibes', cursive;
 
 }
 
-/* .project1Container{
-    position: absolute;
-    height: 500px;
-    width: 100%;
-    top: 60%;
-} */
 
 .brandStatement{
     position: relative;
@@ -98,6 +106,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    color:white;
+
 }
 
 .aboutText{
@@ -110,18 +120,138 @@
     overflow: hidden;
 }
 .contentBox{
-    width: 40%;
-    max-width: 400px;
+    width: 70%;
+    max-width: 500px;
+    padding: 7px;
+    margin: 0 auto;
 }
 
 #myPic{
     border-radius: 50%;
     height: 200px;
     width: 200px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 #aboutMe{
     width: 100%;
     text-align: justify;
+}
+
+p{
+    color: white;
+    text-align: justify;
+}
+
+.imageContainer{
+    background-image: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1607295198/Portfolio1/highres_493679678_gs2ktm.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+
+.projectContainer1{
+    margin: 0 auto;
+    color: white;
+    background-image: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1607286294/Portfolio1/cropped-Fotolia_119561214_Subscription_Yearly_XXL_PLUS-2-2000x1014_oy6nhy.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.projectImage1{
+    background-image: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1607299180/Portfolio1/Screenshot_2020-12-06_155912300_oah1qq.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+
+.projectContainer2{
+    color: white;
+    background-image: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1607286294/Portfolio1/cropped-Fotolia_119561214_Subscription_Yearly_XXL_PLUS-2-2000x1014_oy6nhy.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.projectImage2{
+    background-image: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1607133056/Portfolio1/the_man_called_cayde_by_vulshokbersrker_dcxfgx8-fullview300_gly2rl.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+.projectContainer3{
+    color: white;
+    background-image: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1607286294/Portfolio1/cropped-Fotolia_119561214_Subscription_Yearly_XXL_PLUS-2-2000x1014_oy6nhy.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.projectImage3{
+    background-image: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1607298374/Portfolio1/Screenshot_2020-12-06_154559_nbceix.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+.projectContainer4{
+    color: white;
+    background-image: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1607286294/Portfolio1/cropped-Fotolia_119561214_Subscription_Yearly_XXL_PLUS-2-2000x1014_oy6nhy.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.projectImage4{
+    background-image: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1607299876/Portfolio1/Screenshot_2020-12-06_161059_ztun6i.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+}
+.contactContainer{
+    color: white;
+    background-image: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1607286294/Portfolio1/cropped-Fotolia_119561214_Subscription_Yearly_XXL_PLUS-2-2000x1014_oy6nhy.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.flexContainer{
+    display: flex;
+    padding: 15px;
+}
+
+.header{
+    font-size: 60px;
+}
+.contact{
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
 }
 
 @media screen and (max-width: 768px) {

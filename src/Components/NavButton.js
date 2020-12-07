@@ -9,12 +9,15 @@ function NavButton(props) {
 
     return(
         <>
+        <div className="iconBox">
         <div className="navIcon" onClick={() => setToggle(!toggle)}></div>
+        </div>
         <div className={`navBox ${expand}`}>
             <div className="navLink">
-                <p>About</p>
-                <p>Projects</p>
-                <p>Contact</p>
+                <a href="#">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
             </div>
         </div>
         </>
