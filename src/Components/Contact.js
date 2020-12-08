@@ -34,6 +34,7 @@ const Contact = () => {
     };
 
     return (
+        <>
         <div id="contact" className="contactContainer">
             <h1>Let's Work Together</h1>
                 <div className="flexContainer">
@@ -70,6 +71,9 @@ const Contact = () => {
 
                 </div>
         </div>
+        <div className="bannerContainer"></div>
+
+        </>
     )
 }
 
