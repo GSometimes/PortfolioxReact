@@ -19,7 +19,7 @@ const Projects = () => {
             <div className="contentBox">
                     <p>The Man They Called Cayde is the first iteration of an interactive application built in react that pulls API data of a lore book from Destiny 2.
                         This was the second project that I created while at General Assembly. Destiny has been a part of my life for the last 6 years and my inspiration for this app was to take a small part of something that I hold dearly and share it with others. As I grow I look to grow the library. 
-                        You can view the project <a href="https://cayde6.netlify.app/About" alt="" target="_blank" rel="noopener noreferrer">here</a>.
+                        You can view the project <a href="https://cayde6.netlify.app/" alt="" target="_blank" rel="noopener noreferrer">here</a>.
                     </p>
             </div>
             <div className="projectImage2"></div>
