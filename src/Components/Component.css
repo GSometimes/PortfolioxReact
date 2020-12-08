@@ -248,6 +248,17 @@ p{
     font-size: 18px;
 }
 
+.footerContainer{
+    background-image: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1607229769/Portfolio1/nicole-y-c-etw7KoIn3Gw-unsplash_1_gm0joc.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    font-size: 25px;
+}
+
 /* Contact Form CSS */
 
   .contactForm {

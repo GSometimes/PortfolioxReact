@@ -71,7 +71,7 @@ const Contact = () => {
 
                 </div>
         </div>
-        <div className="bannerContainer"></div>
+        <div className="footerContainer"></div>
 
         </>
     )
